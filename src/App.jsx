@@ -1,5 +1,19 @@
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+import About from "./components/About"
+import Services from "./components/Services"
+import Tours from "./components/Tours"
+import Footer from "./components/Footer"
+
 export default function App() {
   return (
-    <h1 style={{color:"black"}}>Szia</h1>
+    <div>
+      <Navbar />
+      <Hero />
+      <About />
+      <Services />
+      <Tours />
+      <Footer />
+    </div>
   )
 }
