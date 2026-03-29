@@ -3,13 +3,14 @@ import image1 from "../images/tour-1.jpeg"
 import image2 from "../images/tour-2.jpeg"
 import image3 from "../images/tour-3.jpeg"
 import image4 from "../images/tour-4.jpeg"
+import Title from "./Title"
 
 export default function Tours() {
     return (
         <div>
             <section className="section" id="tours">
                 <div className="section-title">
-                <h2>featured <span>tours</span></h2>
+                <Title title="featured" subTitle="tours"/>
                 </div>
 
                 <div className="section-center featured-center">

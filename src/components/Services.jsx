@@ -1,11 +1,12 @@
 import "../index.css"
+import Title from "./Title";
 
 export default function Services() {
     return (
         <div>
             <section className="section services" id="services">
                 <div className="section-title">
-                <h2>our <span>services</span></h2>
+                <Title title="our" subTitle="services"/>
                 </div>
                 <div className="section-center services-center">
                 <article className="service">

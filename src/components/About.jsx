@@ -1,12 +1,13 @@
 import "../index.css"
 import image from "../images/about.jpeg"
+import Title from "./Title";
 
 export default function About() {
     return (
         <div>
             <section className="section" id="about">
                 <div className="section-title">
-                <h2>about <span>us</span></h2>
+                <Title title="About" subTitle="us"/>
                 </div>
 
                 <div className="section-center about-center">
